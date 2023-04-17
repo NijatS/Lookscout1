@@ -1,0 +1,25 @@
+@media screen and (max-width:1280px){
+    #navbar_header{
+        padding: 0;
+    }
+    .container{
+        width: 100%;
+    }
+    .navbar_container{
+        padding: 0 16px;
+        height: 64px;
+    }
+    .navbar_left_section>img{
+        width: 128px;
+        height: 32px;
+    }
+    .navbar_left_section>.links{
+        display: none;
+    }
+    .navbar_right_section>button:first-child,.navbar_right_section>button:nth-child(2){
+        display: none;
+    }
+    .navbar_right_section>img:last-child{
+        display: inherit;
+    }
+}

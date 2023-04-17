@@ -3,7 +3,8 @@
         padding: 0;
     }
     .container{
-        width: 100%;
+        width: 672px;
+        padding: 0;
     }
     .navbar_container{
         padding: 0 16px;
@@ -21,5 +22,22 @@
     }
     .navbar_right_section>img:last-child{
         display: inherit;
+    }
+    .welcome_content{
+        width: 672px;
+    }
+    .welcome_container{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        height: 994px;
+        padding: 48px;
+        row-gap: 40px;
+    }
+    .welcome_content>div:nth-child(2) #mobile{
+        display: initial;
+    }
+    .welcome_content>div:nth-child(2) #desktop{
+        display: none;
     }
 }

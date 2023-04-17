@@ -1,3 +1,35 @@
 @media screen and (max-width:768px){
-    
+    .container{
+        width: 375px;
+    }
+    .welcome_container{
+        height: 829px;
+        padding: 16px 40px;
+        row-gap: 32px;
+    }
+    .welcome_content{
+        width: 343px;
+    }
+    .welcome_content>div:nth-child(2) h1{
+        font-size: 36px;
+        line-height: 44px;
+        letter-spacing: -0.02em;
+        font-weight: 600;
+        margin-bottom: 16px;
+    }
+    .welcome_content>div:nth-child(2){
+        margin-bottom: 32px;
+    }
+    .welcome_img{
+        width: 343px;
+        height: 343px;
+    }
+    .welcome_content>div:last-child{
+        display: flex;
+        flex-direction: column;
+        row-gap: 16px;
+    }
+    .welcome_content>div:last-child .blue_button,.welcome_content>div:last-child .transparent_button{
+        width: 100%;
+    }
 }

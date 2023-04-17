@@ -34,10 +34,10 @@
         padding: 48px;
         row-gap: 40px;
     }
-    .welcome_content>div:nth-child(2) #mobile{
+    .welcome_content>div:nth-child(2) h1>#mobile{
         display: initial;
     }
-    .welcome_content>div:nth-child(2) #desktop{
+    .welcome_content>div:nth-child(2) h1>#desktop{
         display: none;
     }
 }

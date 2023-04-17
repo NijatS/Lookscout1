@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
 }
+body{
+    background-color: #F8F9FB;
+}
 html{
     font-family: 'Inter', sans-serif;
 }
@@ -95,9 +98,11 @@ button{
     align-items: center;
     padding-top: 48px;
     padding-bottom: 80px;
+    overflow: hidden;
 }
 .welcome_content{
     width: 524px;
+    height: 356px;
 }
 .welcome_content>div:first-child {
     display: flex;
@@ -170,8 +175,9 @@ button{
 .welcome_img{
     width: 628px;
     height: 528px;
-    overflow: hidden;
 }
 .welcome_img img{
-  width: 100%;
+    width: 100%;
+    transform: scale(1.35);
 }
+

@@ -4,7 +4,7 @@
     }
     .welcome_container{
         height: 829px;
-        padding: 16px 40px;
+        padding: 32px 16px 40px 16px;
         row-gap: 32px;
     }
     .welcome_content{
@@ -31,5 +31,14 @@
     }
     .welcome_content>div:last-child .blue_button,.welcome_content>div:last-child .transparent_button{
         width: 100%;
+    }
+    .welcome_img img{
+        object-position: right top;
+    }
+    .welcome_content>div:nth-child(2) p>#mobile{
+        display: initial;
+    }
+    .welcome_content>div:nth-child(2) p>#desktop{
+        display: none;
     }
 }
